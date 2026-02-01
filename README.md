@@ -128,3 +128,174 @@ This project is created **strictly for academic and educational purposes**. Fore
 ---
 
 ⭐ *If you found this project useful, consider starring the repository!*
+
+
+
+📊 DCF & WACC Valuation – Avenue Supermarts (DMart)
+📌 Project Overview
+
+This project focuses on estimating the Weighted Average Cost of Capital (WACC) and applying it within a Discounted Cash Flow (DCF) framework to analyze Avenue Supermarts Ltd (DMart).
+The valuation is supported by peer comparison, beta analysis, and capital structure assessment to arrive at a realistic discount rate for equity valuation.
+
+🏢 Company Overview
+
+Avenue Supermarts Ltd (DMart) is a leading Indian organized retail company operating under a low-cost, high-volume business model.
+
+Key highlights:
+
+Strong and consistent cash flows
+
+Conservative use of debt
+
+High inventory turnover
+
+Focus on operational efficiency
+
+📈 Methodology
+1️⃣ Comparable Company Analysis
+
+The following peer companies were analyzed to estimate beta and capital structure:
+
+Avenue Supermarts
+
+Trent Ltd
+
+Vedant Fashions
+
+Aditya Birla Fashion & Retail
+
+Metro Brands
+
+Metrics considered:
+
+Debt-to-equity ratios
+
+Levered and unlevered beta
+
+Tax rate
+
+Market risk exposure
+
+2️⃣ Cost of Capital Assumptions
+Parameter	Value
+Risk-Free Rate	6.70%
+Equity Risk Premium	8.45%
+Levered Beta	0.98
+Cost of Equity	14.96%
+Pre-Tax Cost of Debt	7.46%
+After-Tax Cost of Debt	5.22%
+Corporate Tax Rate	30%
+3️⃣ Capital Structure
+Component	Weight
+Equity	99.32%
+Debt	3.84%
+
+The company maintains an equity-heavy structure, resulting in low financial risk but limited tax shield benefits.
+
+🧮 WACC Calculation
+WACC
+=
+(
+𝐸
+/
+𝑉
+×
+𝐶
+𝑜
+𝑠
+𝑡
+ 
+𝑜
+𝑓
+ 
+𝐸
+𝑞
+𝑢
+𝑖
+𝑡
+𝑦
+)
++
+(
+𝐷
+/
+𝑉
+×
+𝐶
+𝑜
+𝑠
+𝑡
+ 
+𝑜
+𝑓
+ 
+𝐷
+𝑒
+𝑏
+𝑡
+)
+WACC=(E/V×Cost of Equity)+(D/V×Cost of Debt)
+✅ Final WACC: 15.05%
+
+This WACC reflects:
+
+Stable business risk
+
+Minimal leverage
+
+Market-consistent return expectations
+
+⚠️ Key Risks
+
+High competition in organized retail
+
+Thin operating margins
+
+Rising logistics and store operating costs
+
+Sensitivity to consumer demand and inflation
+
+Regulatory and tax changes
+
+🚀 Key Value Drivers
+
+Store expansion in Tier-2 and Tier-3 cities
+
+Same-store sales growth
+
+Operating margin improvement
+
+Efficient working capital management
+
+Growth in India’s organized retail sector
+
+📌 Key Takeaways
+
+The estimated WACC of 15.05% is appropriate for a low-leverage retail business
+
+Value creation depends primarily on operational efficiency and revenue growth
+
+Conservative capital structure supports long-term stability
+
+📁 Project Files
+
+DCF_WACC.pdf – WACC and beta calculation
+
+README.md – Project documentation
+
+🧠 Skills Demonstrated
+
+Financial Valuation (DCF)
+
+WACC & Beta Estimation
+
+Comparable Company Analysis
+
+Risk Assessment
+
+Equity Research
+
+👤 Author
+
+Prashant Thakur
+Finance & Valuation Enthusiast
