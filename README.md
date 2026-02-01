@@ -131,173 +131,152 @@ This project is created **strictly for academic and educational purposes**. Fore
 
 
 
+# 📊 DCF & WACC Valuation Model (India Focus)
 
+> **A practical corporate finance project that estimates firm value using Discounted Cash Flow (DCF) and Weighted Average Cost of Capital (WACC), built with real Indian market data.**
 
-📊 DCF & WACC Valuation – Avenue Supermarts (DMart)
-📌 Project Overview
+---
 
-This project focuses on estimating the Weighted Average Cost of Capital (WACC) and applying it within a Discounted Cash Flow (DCF) framework to analyze Avenue Supermarts Ltd (DMart).
-The valuation is supported by peer comparison, beta analysis, and capital structure assessment to arrive at a realistic discount rate for equity valuation.
+## 🚀 Project Overview
 
-🏢 Company Overview
+This project demonstrates a **bottom-up valuation approach** by calculating WACC using peer company analysis and applying it to DCF valuation. It is designed to mirror **real-world equity research and investment banking practices**.
 
-Avenue Supermarts Ltd (DMart) is a leading Indian organized retail company operating under a low-cost, high-volume business model.
+The model uses Indian retail & fashion sector peers to derive beta, capital structure, and cost of capital assumptions.
 
-Key highlights:
+---
 
-Strong and consistent cash flows
+## 🎯 Objectives
 
-Conservative use of debt
+* Estimate **Weighted Average Cost of Capital (WACC)** using market-based inputs
+* Apply **DCF methodology** to determine intrinsic firm value
+* Perform **peer comparison & beta adjustments** (levered and unlevered)
+* Understand the impact of **capital structure, tax, and risk premium** on valuation
 
-High inventory turnover
+---
 
-Focus on operational efficiency
+## 🧮 Key Concepts Covered
 
-📈 Methodology
-1️⃣ Comparable Company Analysis
+* Discounted Cash Flow (DCF)
+* Weighted Average Cost of Capital (WACC)
+* Cost of Equity (CAPM)
+* Cost of Debt (After-Tax)
+* Levered & Unlevered Beta
+* Peer Comparable Analysis
+* Capital Structure Optimization
 
-The following peer companies were analyzed to estimate beta and capital structure:
+---
 
-Avenue Supermarts
+## 🏢 Peer Companies Used
 
-Trent Ltd
+* Avenue Supermarts (DMart)
+* Trent Ltd
+* Vedant Fashions
+* Aditya Birla Fashion & Retail
+* Metro Brands
 
-Vedant Fashions
+> All figures are in **INR**, unless stated otherwise.
 
-Aditya Birla Fashion & Retail
+---
 
-Metro Brands
+## 📐 Methodology
 
-Metrics considered:
+### 1️⃣ Cost of Equity (CAPM)
 
-Debt-to-equity ratios
+```text
+Cost of Equity = Risk-Free Rate + Beta × Equity Risk Premium
+```
 
-Levered and unlevered beta
+* Risk-Free Rate: **6.70%**
+* Equity Risk Premium: **8.45%**
+* Levered Beta (derived): **0.98**
+* **Cost of Equity: 14.96%**
 
-Tax rate
+---
 
-Market risk exposure
+### 2️⃣ Cost of Debt
 
-2️⃣ Cost of Capital Assumptions
-Parameter	Value
-Risk-Free Rate	6.70%
-Equity Risk Premium	8.45%
-Levered Beta	0.98
-Cost of Equity	14.96%
-Pre-Tax Cost of Debt	7.46%
-After-Tax Cost of Debt	5.22%
-Corporate Tax Rate	30%
-3️⃣ Capital Structure
-Component	Weight
-Equity	99.32%
-Debt	3.84%
+* Pre-Tax Cost of Debt: **7.46%**
+* Tax Rate: **30%**
+* After-Tax Cost of Debt: **5.22%**
 
-The company maintains an equity-heavy structure, resulting in low financial risk but limited tax shield benefits.
+---
 
-🧮 WACC Calculation
-WACC
-=
-(
-𝐸
-/
-𝑉
-×
-𝐶
-𝑜
-𝑠
-𝑡
- 
-𝑜
-𝑓
- 
-𝐸
-𝑞
-𝑢
-𝑖
-𝑡
-𝑦
-)
-+
-(
-𝐷
-/
-𝑉
-×
-𝐶
-𝑜
-𝑠
-𝑡
- 
-𝑜
-𝑓
- 
-𝐷
-𝑒
-𝑏
-𝑡
-)
-WACC=(E/V×Cost of Equity)+(D/V×Cost of Debt)
-✅ Final WACC: 15.05%
+### 3️⃣ Beta Adjustments
 
-This WACC reflects:
+```text
+Unlevered Beta = Levered Beta / (1 + (1 − Tax Rate) × Debt/Equity)
+Levered Beta   = Unlevered Beta × (1 + (1 − Tax Rate) × Debt/Equity)
+```
 
-Stable business risk
+* Median Unlevered Beta (Peers): **0.95**
 
-Minimal leverage
+---
 
-Market-consistent return expectations
+### 4️⃣ Capital Structure
 
-⚠️ Key Risks
+| Component             | Value       |
+| --------------------- | ----------- |
+| Total Debt            | ₹1,609 Cr   |
+| Market Capitalization | ₹235,270 Cr |
+| Debt Weight           | 3.84%       |
+| Equity Weight         | 99.32%      |
 
-High competition in organized retail
+---
 
-Thin operating margins
+### 5️⃣ WACC Calculation
 
-Rising logistics and store operating costs
+```text
+WACC = (E/V × Cost of Equity) + (D/V × Cost of Debt)
+```
 
-Sensitivity to consumer demand and inflation
+✅ **Final WACC: 15.05%**
 
-Regulatory and tax changes
+---
 
-🚀 Key Value Drivers
+## 📈 Output & Insights
 
-Store expansion in Tier-2 and Tier-3 cities
+* Shows how **low leverage + high equity weight** increases WACC sensitivity to beta
+* Demonstrates the importance of **peer-based beta normalization**
+* Suitable for **valuation interviews, finance internships, and equity research roles**
 
-Same-store sales growth
+---
 
-Operating margin improvement
+## 🛠 Tools & Skills Used
 
-Efficient working capital management
+* Corporate Finance & Valuation
+* Financial Modeling (DCF & WACC)
+* Excel-based Analysis
+* Equity Research Techniques
+* Ratio & Risk Analysis
 
-Growth in India’s organized retail sector
+---
 
-📌 Key Takeaways
+## 📂 Repository Structure
 
-The estimated WACC of 15.05% is appropriate for a low-leverage retail business
+```text
+├── DCF_WACC_Model.xlsx
+├── DCF_WACC.pdf
+├── Assumptions.md
+└── README.md
+```
 
-Value creation depends primarily on operational efficiency and revenue growth
+---
 
-Conservative capital structure supports long-term stability
+## 📌 Assumptions & Notes
 
-📁 Project Files
+* Tax rate considered is the **marginal corporate tax rate**
+* Beta calculated using **5-year monthly data**
+* Market values used instead of book values
 
-DCF_WACC.pdf – WACC and beta calculation
+---
 
-README.md – Project documentation
+## 👤 Author
 
-🧠 Skills Demonstrated
+**Prashant Thakur**
+Finance | Valuation | Equity Research
 
-Financial Valuation (DCF)
+📫 *Feel free to connect for feedback or collaboration.*
 
-WACC & Beta Estimation
+---
 
-Comparable Company Analysis
-
-Risk Assessment
-
-Equity Research
-
-👤 Author
-
-Prashant Thakur
-Finance & Valuation Enthusiast
+⭐ If you found this project useful, consider starring the repository!
